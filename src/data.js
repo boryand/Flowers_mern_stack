@@ -72,6 +72,30 @@ const data = {
       description:
         " Pure white fragrant oriental lilies with vibrant yellow roses, sugar flair hypericum berries and alluring lilac memory lane roses.",
     },
+    {
+      name: "PEONY, ROSE & LILY",
+      slug: "peony, rose & lily",
+      category: "Flowers",
+      image:
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/jo-ht-/c98ed85d-22c1-4778-9d8c-6eecf67d3fcf.jpg",
+      price: 35,
+      rating: 4.5,
+      numReviews: 80,
+      description:
+        " The seasonal favourite peony has been perfectly paired with the pink oriental lily and white avalanche roses for a stunning summertime gift.",
+    },
+    {
+      name: "PEACHES & PEONY",
+      slug: "Peaches and Peony",
+      category: "Flowers",
+      image:
+        "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/mareike-ht-de/08b6b797-0c23-4081-b8ff-b7a94f5abb30.jpg",
+      price: 55,
+      rating: 4.8,
+      numReviews: 70,
+      description:
+        " Surprise them this summer with this beautiful bouquet of creamy white peonies, soft peach roses, and salmon lilies.",
+    },
   ],
 };
 
