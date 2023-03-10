@@ -1,7 +1,17 @@
 import data from "../data.js";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function HomeScreen() {
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = axios.get("/api/products");
+      setProducts(result.data);
+    };
+    fetchData();
+  }, []);
   return (
     <div>
       <h1>Featured products</h1>
