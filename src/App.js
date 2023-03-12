@@ -22,7 +22,7 @@ function App() {
         </header>
 
         <main>
-          <Container>
+          <Container className="mt-5">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />}></Route>
               <Route path="/" element={<HomeScreen />}></Route>
