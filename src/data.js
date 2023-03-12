@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       name: "PEONY, ROSE & LILY",
-      slug: "peony, rose & lily",
+      slug: "peony",
       category: "Flowers",
       image:
         "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/jo-ht-/c98ed85d-22c1-4778-9d8c-6eecf67d3fcf.jpg",
@@ -14,7 +14,7 @@ const data = {
     },
     {
       name: "PEACHES & PEONY",
-      slug: "Peaches and Peony",
+      slug: "Peaches",
       category: "Flowers",
       image:
         "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/mareike-ht-de/08b6b797-0c23-4081-b8ff-b7a94f5abb30.jpg",
@@ -50,7 +50,7 @@ const data = {
     },
     {
       name: "Purple Dream",
-      slug: "Purple Flowers",
+      slug: "Flowers",
       category: "Flowers",
       image:
         "https://www.floraprima.de/media/cache/ZmFydGlrZWwvNzkzMTgvOTY3M18xXzFfN18zMl8xMzBfY3hfZXBuZ19jeF93OTAwX2N4X2g5MDBfY3hfbTE2NzY0NjE2NDZfY3hfZDA=/9673-frisch-gebunden.jpg",
@@ -62,7 +62,7 @@ const data = {
     },
     {
       name: "Romeo Flowers",
-      slug: "Romeo Flowers",
+      slug: "Romeo",
       category: "Flowers",
       image:
         "https://www.floraprima.de/media/cache/ZmFydGlrZWwvNTcyNTAvNjA5NV8xXzFfN18zMl8xMzBfY3hfZXBuZ19jeF93OTAwX2N4X2g5MDBfY3hfbTE2Nzc2NTUxOTNfY3hfZDM=/6095-frisch-gebunden.jpg",
@@ -74,7 +74,7 @@ const data = {
     },
     {
       name: "PEONY, ROSE & LILY",
-      slug: "peony, rose & lily",
+      slug: "peonyy",
       category: "Flowers",
       image:
         "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/jo-ht-/c98ed85d-22c1-4778-9d8c-6eecf67d3fcf.jpg",
@@ -86,7 +86,7 @@ const data = {
     },
     {
       name: "PEACHES & PEONY",
-      slug: "Peaches and Peony",
+      slug: "Peachess",
       category: "Flowers",
       image:
         "https://media.bloomandwild.com/v1/1000x1000/filters:format(webp):quality(75)/https://assets-0.bloomandwild.com/letterbox-main/mareike-ht-de/08b6b797-0c23-4081-b8ff-b7a94f5abb30.jpg",

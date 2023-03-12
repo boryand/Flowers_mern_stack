@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #faf0e6;
+  background-color: whitesmoke;
 }
 
 .site-container {
@@ -16,7 +16,7 @@ main {
   flex: 1;
 }
 .btn-primary {
-  background-color: #90ee90;
+  background-color: #8fbc8f;
   color: black;
   border: 1px solid black;
 }
@@ -26,7 +26,7 @@ main {
   color: black;
 }
 
-.btn-primary:active {
+#btn1:active {
   background-color: #90ee90;
   border: 1px solid black;
   color: black;
@@ -54,5 +54,19 @@ main {
 }
 
 .rating span {
-  color: #90ee90;
+  color: #8fbc8f;
+}
+
+.link_to_product,
+.link_to_product:hover {
+  text-decoration: none;
+  color: #004225;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+#product_description {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }

@@ -1,11 +1,12 @@
-import data from "../data.js";
-
 import { useEffect, useReducer } from "react";
 import axios from "axios";
-import logger from "use-reducer-logger";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Product from "../components/Products.js";
+import Product from "../components/Product.js";
+import logger from "use-reducer-logger";
+import { Helmet } from "react-helmet-async";
+import LoadingBox from "../components/LoadingBox.js";
+import MessageBox from "../components/MessageBox.js";
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -22,36 +23,44 @@ const reducer = (state, action) => {
 
 function HomeScreen() {
   const [{ loading, error, products }, dispatch] = useReducer(logger(reducer), {
-    products: [],
     loading: true,
+
     error: "",
+    products: [],
   });
   // const [products, setProducts] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
       dispatch({ type: "FETCH_REQUEST" });
       try {
-        const result = axios.get("/api/products");
+        const result = await axios.get("/api/products");
         dispatch({ type: "FETCH_SUCCESS", payload: result.data });
       } catch (err) {
         dispatch({ type: "FETCH_FAIL", payload: err.message });
       }
 
-      //setProducts(result.data);
+      // setProducts(result.data);
     };
     fetchData();
   }, []);
   return (
     <div>
-      <h1>Featured products</h1>
+      <Helmet>
+        <title>Cassie Flowers</title>
+      </Helmet>
+
       <div className="products">
         {loading ? (
-          <div>Loading ... </div>
+          <div>
+            <LoadingBox />
+          </div>
         ) : error ? (
-          <div>{error}</div>
+          <div>
+            <MessageBox variant="danger">{error}</MessageBox>
+          </div>
         ) : (
           <Row>
-            {data.products.map((product) => (
+            {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
                 <Product product={product} />
               </Col>
