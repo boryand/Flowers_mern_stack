@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: "1",
+      // _id: "1",
       name: "Peony, Rose & Lily",
       slug: "peony",
       category: "Flowers",
@@ -14,7 +14,7 @@ const data = {
         " The seasonal favourite peony has been perfectly paired with the pink oriental lily and white avalanche roses for a stunning summertime gift.",
     },
     {
-      _id: "2",
+      // _id: "2",
       name: "Peaches and Peony",
       slug: "Peaches",
       category: "Flowers",
@@ -27,7 +27,7 @@ const data = {
         " Surprise them this summer with this beautiful bouquet of creamy white peonies, soft peach roses, and salmon lilies.",
     },
     {
-      _id: "3",
+      // _id: "3",
       name: "Daiquiri",
       slug: "daiquiri",
       category: "Flowers",
@@ -40,7 +40,7 @@ const data = {
         " Send the scent of summer with this summertime favourite of pink hydrangea, cerise roses with textured burgundy carnations and green hypericum berries.",
     },
     {
-      _id: "4",
+      // _id: "4",
       name: "Glaze",
       slug: "Glaze",
       category: "Flowers",
@@ -53,7 +53,7 @@ const data = {
         " Pure white fragrant oriental lilies with vibrant yellow roses, sugar flair hypericum berries and alluring lilac memory lane roses.",
     },
     {
-      _id: "5",
+      // _id: "5",
       name: "Red Rose bear",
       slug: "rose-bear",
       category: "Gifts",
@@ -66,7 +66,7 @@ const data = {
         " Rose bear with personalized glass print and with your photo",
     },
     {
-      _id: "6",
+      // _id: "6",
       name: "Teddy Bear",
       slug: "black-bear",
       category: "Gifts",
@@ -79,7 +79,7 @@ const data = {
         " Teddy Bear with Diamonds | Black | Gift for women, girlfriend, mom, Valentine's Day, birthday, Christmas gifts, Mother's Day gifts, International Women's Day",
     },
     {
-      _id: "7",
+      // _id: "7",
       name: "Red eternal rose ",
       slug: "led-rose",
       category: "Gifts",
@@ -92,7 +92,7 @@ const data = {
         " Red eternal rose in a glass LED, gift for women, girlfriend, mum, Valentine's Day, birthday, Christmas gifts, Mother's Day gifts, International Women's Day",
     },
     {
-      _id: "8",
+      // _id: "8",
       name: "Rose bear ",
       slug: "pink-rose-bear",
       category: "Gifts",
